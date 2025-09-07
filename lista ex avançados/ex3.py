@@ -10,3 +10,11 @@ Entrada: ("Abacaxi", 3)
 Saída: "Dedfdal"
 
 '''
+
+def cifra (c,n):
+    end = ''
+    for i in c:
+        end += chr(ord(i)+n)
+    return end
+
+print(cifra('Os guris', 15))

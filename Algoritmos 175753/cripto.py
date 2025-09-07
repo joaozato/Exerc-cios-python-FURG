@@ -6,15 +6,15 @@ def compacta(final,chave):
     return end
 
 
-
+'''
 def criptografia (nome, chave):
     final=''
     for i in nome:
         final += chr(ord(i) + chave)
     return compacta(final,chave)
 
-
-print(criptografia('Kirekulim',4))
+'''
+print(compacta('Kirekulim',4))
 
 
     
